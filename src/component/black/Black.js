@@ -343,13 +343,13 @@ if (mail.length<0) {
                             <textarea value={message} onChange={(i) => handleMessage(i.target.value)} autocomplete="off" maxLength={400} className='messagemail' placeholder='Mesaj giriniz*' type='text' name="message" />
                             
                             </div> */}
-                            <form className="contact-form" onSubmit={sendEmail}>
+                            <form onSubmit={sendEmail}>
         <div className='maildiv'>
 
-          <input value={name} onChange={(i) => handleName(i.target.value)} autocomplete="off" className='namemail' placeholder='İsim giriniz*' type="text" name="user_name" />
-          <input value={mail} onChange={(i) => handleMail(i.target.value)} autocomplete="off" className='mailmail' placeholder='E-Mail giriniz*' type="email" name="user_email" />
-          <textarea value={message} onChange={(i) => handleMessage(i.target.value)} autocomplete="off" maxLength={400} className='messagemail' placeholder='Mesaj giriniz*' type='text' name="message" />
-          <input className='buttonmail' type="submit" value={buttonName} />
+          <div className='mail-inpp'><input spellCheck={false} value={name} onChange={(i) => handleName(i.target.value)} autocomplete="off" className='namemail' placeholder='İsim giriniz*' type="text" name="user_name" /></div>
+          <div className='mail-inpp'><input spellCheck={false} value={mail} onChange={(i) => handleMail(i.target.value)} autocomplete="off" className='mailmail' placeholder='E-Mail giriniz*' type="email" name="user_email" /></div>
+          <div className="mail-texx"><textarea spellCheck={false} value={message} onChange={(i) => handleMessage(i.target.value)} autocomplete="off" maxLength={400} className='messagemail' placeholder='Mesaj giriniz*' type='text' name="message" /></div>
+          <button className='buttonmail' role='button' type="submit">{buttonName}</button>
         </div>
       </form>
                             

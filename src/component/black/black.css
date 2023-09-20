@@ -793,36 +793,70 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 
 .contact-form form{
     width: 100%;
     height: 25rem;
+}
+
+.maildiv{
+    width: 100%;
+    height: 26rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.contact-form form input{
-    width: 90%;
+.maildiv .mail-inpp input{
+    width: 100%;
     height: 5rem;
     background-color: transparent;
-    border-bottom: solid;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-width: 1px;
-    border-color: rgb(44, 44, 44);
+    border: none;
     outline: none;
     font-family: 'ClashDisplay-Regular';
     font-size: 23px;
     color: white;
 }
 
-.contact-form form .buttonmail{
-    width: 90%;
+.maildiv .mail-inpp{
+    width: 100%;
+    height: 5rem;
+    border-bottom: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    border-color: rgb(44, 44, 44);
+}
+
+.maildiv .mail-texx{
+    width: 100%;
+    height: 10rem;
+    border-bottom: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    border-color: rgb(44, 44, 44);
+}
+
+.maildiv .mail-texx textarea{
+    width: 100%;
+    height: 10rem;
+    resize: none;
+    padding-top: 1.5rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'ClashDisplay-Regular';
+    font-size: 23px;
+    color: white;
+}
+
+.maildiv button{
+    width: 100%;
     height: 5rem;
     border: none;
     outline: none;
@@ -831,30 +865,13 @@
     color: white;
     background-color: #1c1c1c;
     cursor: pointer;
+    margin-top: 1rem;
 }
 
-.contact-form form .buttonmail:hover{
+.maildiv button:hover{
     border: solid;
     border-width: 1px;
     border-color: white;
-}
-
-.contact-form form textarea{
-    resize: none;
-    width: 90%;
-    height: 10rem;
-    padding-top: 1.5rem;
-    background-color: transparent;
-    border-bottom: solid;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-width: 1px;
-    border-color: rgb(44, 44, 44);
-    outline: none;
-    font-family: 'ClashDisplay-Regular';
-    font-size: 23px;
-    color: white;
 }
 
 .footer-container{
