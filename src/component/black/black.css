@@ -824,10 +824,7 @@
     width: 100%;
     height: 5rem;
     border-bottom: solid;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-width: 1px;
+    border-width: 2px;
     border-color: rgb(44, 44, 44);
 }
 
@@ -835,10 +832,7 @@
     width: 100%;
     height: 10rem;
     border-bottom: solid;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-width: 1px;
+    border-width: 2px;
     border-color: rgb(44, 44, 44);
 }
 
