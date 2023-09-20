@@ -338,7 +338,7 @@ if (mail.length<0) {
                             <input value={name} onChange={(i) => handleName(i.target.value)} autocomplete="off" className='namemail' placeholder='İsim giriniz*' type="text" name="user_name" />
                             </div>
                             <div className='form-mail'>
-                            <input value={mail} onChange={(i) => handleMail(i.target.value)} autocomplete="off" className='mailmail' placeholder='E-Mail giriniz*' type="email" name="user_email" />
+                            <input value={mail} onChange={(i) => handleMail(i.target.value)} autoxcomplete="off" className='mailmail' placeholder='E-Mail giriniz*' type="email" name="user_email" />
                             </div>
                             <div className='form-text'>
                             <textarea value={message} onChange={(i) => handleMessage(i.target.value)} autocomplete="off" maxLength={400} className='messagemail' placeholder='Mesaj giriniz*' type='text' name="message" />
