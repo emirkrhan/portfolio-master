@@ -1,9 +1,8 @@
 import './App.css'
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 
 import { Route, Routes } from 'react-router-dom';
 import Black from './component/black/Black';
-import Home from "./component/home/Home"
 
 
 
@@ -14,7 +13,6 @@ function App() {
     <div className="App">
       <Routes>
           <Route path='/' element={<Black />} />
-          <Route path='/hhh' element={<Home />} />
           
         </Routes>
     </div>
