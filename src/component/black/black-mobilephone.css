@@ -1,0 +1,644 @@
+@media screen and (max-width: 350px) and (min-width: 0px) {
+    .menu-tag {
+        display: none;
+    }
+
+    .menu-phone-icon {
+        width: 50%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: white;
+    }
+
+    .menu-logo {
+        width: 50%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        font-family: 'ClashDisplay-Semibold';
+        letter-spacing: 1px;
+        font-size: 10px;
+        color: white;
+    }
+
+    .who-am-i {
+        width: 100%;
+        height: 3rem;
+        font-family: 'ClashDisplay-Semibold';
+        letter-spacing: 1px;
+        font-size: 10px;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+
+    .about-container {
+        width: 90%;
+        height: 14rem;
+        border-bottom: solid;
+        border-width: 1px;
+        border-color: rgb(44, 44, 44);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .about-number-div {
+        width: 100%;
+        height: 9rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .number-text {
+        width: 90%;
+        height: 4rem;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 30px;
+        color: rgb(71, 71, 71);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .about-text {
+        width: 100%;
+        height: 7rem;
+        font-family: 'Inter', sans-serif;
+        font-size: 5vw;
+        font-weight: 500;
+        color: white;
+        display: flex;
+        align-items: center;
+        text-align: start;
+    }
+
+    .follower {
+        display: none;
+    }
+
+    .abbout {
+        width: 65%;
+        height: 3rem;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        color: white;
+        letter-spacing: 1px;
+    }
+
+    .years-about {
+        width: 35%;
+        height: 3rem;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: white;
+        letter-spacing: 1px;
+    }
+
+    .photoandtext {
+        width: 100%;
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .photo-ab {
+        width: 100%;
+        height: 10rem;
+        background-image: url(ımım.png);
+        background-repeat: no-repeat;
+        background-size: 45%;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .number-ab {
+        width: 10rem;
+        height: 10rem;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 30px;
+        color: rgb(71, 71, 71);
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .about-ab {
+        width: 100%;
+        height: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 8vw;
+        color: white;
+        text-align: center;
+        border-bottom: solid;
+        border-width: 1px;
+        border-color: rgb(44, 44, 44);
+    }
+
+    .texts-life {
+        width: 100%;
+        height: auto;
+    }
+
+    .texts-cont {
+        width: 100%;
+        height: 17rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texts-number {
+        width: 100%;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 11px;
+        color: white;
+    }
+
+    .texts-a-text {
+        width: 100%;
+        height: 15rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texts-title {
+        width: 100%;
+        height: 3rem;
+        font-family: 'ClashDisplay-Semibold';
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 18px;
+    }
+
+    .texts-myower {
+        width: 100%;
+        height: 12rem;
+        text-align: justify;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        color: rgb(148, 148, 148);
+        font-size: 14px;
+    }
+
+    .project-title {
+        width: 100%;
+        height: 3rem;
+        font-family: 'ClashDisplay-Semibold';
+        letter-spacing: 1px;
+        font-size: 10px;
+        color: rgb(148, 148, 148);
+        display: flex;
+        align-items: center;
+    }
+
+    .boxs-one,
+    .boxs-two {
+        width: 100%;
+        height: 72rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .box-one,
+    .box-two,
+    .box-three,
+    .box-four,
+    .box-five,
+    .box-six {
+        width: 90%;
+        height:24rem;
+    }
+
+    .boxone-title {
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 13px;
+        color: white;
+    }
+
+    .boxone-image {
+        width: 100%;
+        height: 21rem;
+        border-radius: 10px;
+        background-image: url(devil2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boxtwo-image {
+        width: 100%;
+        height: 21rem;
+        border-radius: 10px;
+        background-image: url(floodyapp.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .boxthree-image {
+        width: 100%;
+        height: 21rem;
+        border-radius: 10px;
+        background-image: url(alive2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .boxfour-image {
+        width: 100%;
+        height: 21rem;
+        border-radius: 10px;
+        background-image: url(blake.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .boxfive-image {
+        width: 100%;
+        height: 21rem;
+        border-radius: 10px;
+        background-image: url(pati2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .boxsix-image {
+        width: 100%;
+        height: 21rem;
+        border-radius: 10px;
+        background-image: url(flee4.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .black-boximage {
+        width: 100%;
+        height: 21rem;
+        border-radius: 10px;
+        display: none;
+        background-color: rgba(0, 0, 0, 0.5);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-btntext {
+        width: 100%;
+        height: 12rem;
+    }
+
+    .pro-text {
+        width: 100%;
+        height: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        color: rgb(148, 148, 148);
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .pro-btn {
+        width: 100%;
+        height: 5rem;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .btn-pro {
+        display: inline-block;
+        padding: 0.7rem 1.4rem;
+        font-size: 12px;
+        font-weight: 700;
+        color: rgb(148, 148, 148);
+        border: 3px solid rgb(255, 255, 255);
+        cursor: pointer;
+        position: relative;
+        background-color: transparent;
+        text-decoration: none;
+        overflow: hidden;
+        z-index: 1;
+        font-family: 'ClashDisplay-Semibold';
+    }
+
+    .blog-title {
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 10px;
+        color: white;
+    }
+
+    .blogs-div{
+        width: 100%;
+        height: 145rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .blog-content1{
+        width: 100%;
+        height: 35rem;
+        background-color: #1c1c1c;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .blog-content2{
+        width: 100%;
+        height: 35rem;
+        background-color: #1c1c1c;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog-text{
+        width: 100%;
+        height: 30rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .blog-daylight{
+        width: 90%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'ClashDisplay-Semibold';
+        color: white;
+        font-size: 12px;
+    }
+
+    .blog-con-btn{
+        width: 90%;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .blog-con-animate{
+        width: 70%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-problog {
+        display: inline-block;
+        padding: 0.7rem 1.4rem;
+        font-size: 12px;
+        font-weight: 700;
+        color: rgb(148, 148, 148);
+        border: 3px solid rgb(255, 255, 255);
+        cursor: pointer;
+        position: relative;
+        background-color: transparent;
+        text-decoration: none;
+        overflow: hidden;
+        z-index: 1;
+        font-family: 'ClashDisplay-Semibold';
+    }
+
+    .img-addblog1{
+        width: 90%;
+        height: 4rem;
+        background-image: url(close-up.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: yellowgreen;
+        border-radius: 10px;
+    }
+
+    .img-addblog2{
+        width: 90%;
+        height: 4rem;
+        background-image: url(portrait-person.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: yellowgreen;
+    }
+    
+    .img-addblog3{
+        width: 90%;
+        height: 4rem;
+        background-image: url(artifi-in.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: yellowgreen;
+    }
+    
+    .img-addblog4{
+        width: 90%;
+        height: 4rem;
+        background-image: url(ui-ux.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: yellowgreen;
+    }
+    
+    .blog-contitle{
+        width: 90%;
+        height: 8rem;
+        font-family: 'ClashDisplay-Semibold';
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .blog-context{
+        width: 90%;
+        height: 14rem;
+        text-align: justify;
+        font-family: 'Inter', sans-serif;
+        color: rgb(148, 148, 148);
+        overflow: hidden;
+    }
+    
+    .blog-image1{
+        width: 100%;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blog-image2{
+        width: 100%;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-container{
+        width: 90%;
+        height: 30rem;
+        border-bottom: solid;
+        border-width: 1px;
+        border-color: rgb(44, 44, 44);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-info{
+        width: 100%;
+        height: 3rem;
+        font-family: 'ClashDisplay-Semibold';
+        color: white;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact-inftext{
+        width: 50%;
+        height: 3rem;
+        font-family: 'ClashDisplay-Semibold';
+        color: white;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .contact-infnumber{
+        width: 50%;
+        height: 3rem;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 20px;
+        color: rgb(71, 71, 71);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .contact-form{
+        width: 100%;
+        height: 25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-form form{
+        width: 100%;
+        height: 25rem;
+    }
+
+    .maildiv button{
+        width: 100%;
+        height: 5rem;
+        border: none;
+        outline: none;
+        font-family: 'ClashDisplay-Regular';
+        font-size: 18px;
+        color: white;
+        background-color: #1c1c1c;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+
+    .footer-container{
+        width: 90%;
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-text{
+        width: 100%;
+        height: 5rem;
+        font-family: 'ClashDisplay-Regular';
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        font-size: 10px;
+        color: white;
+    }
+    
+    .footer-social{
+        width: 100%;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .footer-icon{
+        width: auto;
+        height: 3rem;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'ClashDisplay-Regular';
+    }
+
+}
