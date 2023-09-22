@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect, useState } from 'react'
 import "./black.css"
 import "./black-mobilephone.css"
-import { JackInTheBox, Fade } from "react-awesome-reveal";
+import { JackInTheBox } from "react-awesome-reveal";
 import { Link } from 'react-scroll'
 import emailjs from 'emailjs-com';
 import { Squeeze as Hamburger } from 'hamburger-react'
