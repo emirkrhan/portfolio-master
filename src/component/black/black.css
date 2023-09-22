@@ -20,7 +20,7 @@
 }
 
 .menu-div {
-    width: 100%;
+    width: 90%;
     height: 5rem;
     border-bottom: solid;
     border-width: 1px;
@@ -30,10 +30,7 @@
     justify-content: center;
 }
 
-.anime-fade{
-    width: 90%;
-    height: 5rem;
-}
+
 
 .menu-container {
     width: 100%;

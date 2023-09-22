@@ -11,10 +11,22 @@ import { Squeeze as Hamburger } from 'hamburger-react'
 
 function Black() {
 
+
+    const [isOpen, setOpen] = useState(false)
     const [name, setName] = useState("");
     const [mail, setMail] = useState("");
     const [message, setMessage] = useState("");
     const [buttonName, setButtonName] = useState("Gönder");
+    const [openMenu, setOpenMenu] = useState(false);
+
+    const openMenuFunc = () => {
+        setOpenMenu(!openMenu)
+    }
+
+    const closeMenuFunc = () => {
+        setOpenMenu(false)
+        setOpen(false)
+    }
     const [followerPosition, setFollowerPosition] = useState({ x: 0, y: 0 });
     useEffect(() => {
         const container = document.querySelector('.black-container');
@@ -129,22 +141,39 @@ function Black() {
             <Link to="upx" spy={true} smooth={true} duration={500}>  <button className="upbtn" id='upbtn'><i class="fa-solid fa-arrow-up"></i></button></Link>
             <div className="follower" style={{ transform: `translate(${followerPosition.x}px, ${followerPosition.y}px)` }}></div>
             <div className="space-div"></div>
-            <Fade duration={1500} className="anime-fade">
-                <div className="menu-div">
-                    <div className="menu-container">
-                        <div className='menu-logo'>EMIRKRHAN©</div>
-                        <div className='menu-tag'>
-                            <Link className='tagxx' to="about" spy={true} smooth={true} duration={500}> HAKKIMDA</Link>
-                            <Link className='tagxx' to="project" spy={true} smooth={true} duration={500}>PROJELER</Link>
-                            <Link className='tagxx' to="blog" spy={true} smooth={true} duration={500}>BLOG</Link>
-                            <Link className='tagxx' to="contact" spy={true} smooth={true} duration={500}>İLETİŞİM</Link>
-                        </div>
-                        <div className="menu-phone-icon"><Hamburger rounded size={25}></Hamburger> </div>
+
+            <div className="menu-div">
+                <div className="menu-container">
+                    <div className='menu-logo'>EMIRKRHAN©</div>
+                    <div className='menu-tag'>
+                        <Link className='tagxx' to="about" spy={true} smooth={true} duration={500}> HAKKIMDA</Link>
+                        <Link className='tagxx' to="project" spy={true} smooth={true} duration={500}>PROJELER</Link>
+                        <Link className='tagxx' to="blog" spy={true} smooth={true} duration={500}>BLOG</Link>
+                        <Link className='tagxx' to="contact" spy={true} smooth={true} duration={500}>İLETİŞİM</Link>
                     </div>
-
-
+                    <div className="menu-phone-icon">{openMenu ? <button className='button-black' onClick={openMenuFunc}><Hamburger toggled={isOpen} toggle={setOpen} rounded size={25}></Hamburger></button> 
+                    : <button className='button-white' onClick={openMenuFunc}><Hamburger toggled={isOpen} toggle={setOpen} rounded size={25}></Hamburger></button>} </div>
+                    {openMenu ? <div className="opening-menu-container">
+                        <div className="transparent-menu-div">
+                        <Link className='tagxopen' to="about" spy={true} smooth={true} duration={500}> <button onClick={closeMenuFunc}>HAKKIMDA</button></Link>
+                        <Link className='tagxopen' to="project" spy={true} smooth={true} duration={500}><button onClick={closeMenuFunc}>PROJELER</button></Link>
+                        <Link className='tagxopen' to="blog" spy={true} smooth={true} duration={500}><button onClick={closeMenuFunc}>BLOG</button></Link>
+                        <Link className='tagxopen' to="contact" spy={true} smooth={true} duration={500}><button onClick={closeMenuFunc}>İLETİŞİM</button></Link>
+                        <div className="bottom-open">
+                            <div className='bottom-country'>Samsun, Turkey</div>
+                            <div className='bottom-tags'>
+                                <div className="tags-long"><a href='https://www.instagram.com/emir.krhan'>ig</a></div>
+                                <div className="tags-long"><a href='https://www.behance.net/emirhankrhan'>bh</a></div>
+                                <div className="tags-long"><a href='https://github.com/emirhankorhan'>gh</a></div>
+                            </div>
+                        </div>
+                        </div>
+                    </div> : ""}
                 </div>
-            </Fade>
+
+
+            </div>
+
 
             <div className='about-container'>
                 <div className="who-am-i">BEN KİMİM? &nbsp; <span>BİRKAÇ ŞEY...</span></div>
@@ -297,7 +326,7 @@ function Black() {
                     <div className="blog-content1">
                         <div className='blog-text'>
                             <div className='blog-daylight'><i class="fa-solid fa-circle fa-fade"></i> &nbsp; &nbsp; GÜNCEL İÇERİK</div>
-                            <div className='blog-contitle'>TEKNOLOJİ VE <br /> YAPAY ZEKA</div>
+                            <div className='blog-contitle'>TEKNOLOJİ ÇAĞINDA <br /> YAPAY ZEKA</div>
                             <div className='blog-context'>Teknolojinin hızlı gelişimi, dünyayı kökten değiştiren bir dönemde yaşıyoruz.
                                 Bu değişimlerin merkezinde ise yapay zeka (YA) yer alıyor. Bu makalede, günümüzdeki teknoloji trendlerini ve
                                 yapay zeka alanındaki gelişmeleri inceleyeceğiz. Günümüzde, teknoloji her yönüyle yaşamımızın bir parçası haline geldi.

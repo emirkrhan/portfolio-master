@@ -12,6 +12,170 @@
         color: white;
     }
 
+    .menu-phone-icon .button-white{
+        width: 3rem;
+        height: 3rem;
+        background-color: transparent;
+        color: white;
+        border: none;
+        outline: none;
+    }
+
+    .menu-phone-icon .button-black{
+        width: 3rem;
+        height: 3rem;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        border: none;
+        outline: none;
+        z-index: 100;
+        position: fixed;
+    }
+
+    .opening-menu-container{
+        width: 200rem;
+        height: 200rem;
+        position: fixed;
+        background-color: rgb(0, 0, 0);
+        top: -100rem;
+        right: -100rem;
+        z-index: 99;
+        border-radius: 50%;
+        animation-name: menuclick;
+        animation-duration: 1s;
+    }
+
+    @keyframes menuclick {
+        from{
+            width: 0rem;
+            height: 0rem;
+        }to{
+            width: 200rem;
+            height: 200rem;
+        }
+        
+    }
+
+    .transparent-menu-div{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+
+    .tagxopen{
+        width: 15rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation-name: tagani;
+        animation-duration: 0.5s;
+        animation-timing-function: linear;
+        animation-delay: 0.5s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+
+    .bottom-open{
+        width: 100%;
+        height: 11rem;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .bottom-country{
+        width: 50%;
+        height: 6rem;
+        font-family: 'ClashDisplay-Semibold';
+        color: white;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        padding-left: 2rem;
+        animation-name: tagani;
+        animation-duration: 0.5s;
+        animation-timing-function: linear;
+        animation-delay: 0.5s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+
+    .bottom-tags{
+        width: 50%;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 2rem;
+    }
+
+    .tags-long{
+        width: 1.5rem;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'ClashDisplay-Semibold';
+        color: white;
+        font-size: 13px;
+        animation-name: tagani;
+        animation-duration: 0.5s;
+        animation-timing-function: linear;
+        animation-delay: 0.5s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+
+    .tags-long a{
+        color: white;
+        text-decoration: none;
+    }
+
+    @keyframes tagani{
+        from{
+            opacity: 0;
+        }to{
+            opacity: 1;
+        }
+    }
+
+    .tagxopen button{
+        width: 12rem;
+        height: 3rem;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 25px;
+        color: white;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+
+    .upbtn{
+        width: 3rem;
+        height: 3rem;
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        background-color: white;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        border-radius: 50%;
+        font-size: 12px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+
     .menu-logo {
         width: 50%;
         height: 3rem;
@@ -228,7 +392,7 @@
     .box-five,
     .box-six {
         width: 90%;
-        height:24rem;
+        height: 24rem;
     }
 
     .boxone-title {
@@ -267,7 +431,7 @@
         align-items: center;
         justify-content: center;
     }
-    
+
     .boxthree-image {
         width: 100%;
         height: 21rem;
@@ -280,7 +444,7 @@
         align-items: center;
         justify-content: center;
     }
-    
+
     .boxfour-image {
         width: 100%;
         height: 21rem;
@@ -293,7 +457,7 @@
         align-items: center;
         justify-content: center;
     }
-    
+
     .boxfive-image {
         width: 100%;
         height: 21rem;
@@ -306,7 +470,7 @@
         align-items: center;
         justify-content: center;
     }
-    
+
     .boxsix-image {
         width: 100%;
         height: 21rem;
@@ -347,7 +511,7 @@
         font-size: 14px;
         font-weight: 600;
     }
-    
+
     .pro-btn {
         width: 100%;
         height: 5rem;
@@ -382,34 +546,34 @@
         color: white;
     }
 
-    .blogs-div{
+    .blogs-div {
         width: 100%;
-        height: 145rem;
+        height: 157rem;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         flex-direction: column;
     }
 
-    .blog-content1{
+    .blog-content1 {
         width: 100%;
-        height: 35rem;
+        height: 38rem;
         background-color: #1c1c1c;
         border-radius: 20px;
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .blog-content2{
+    .blog-content2 {
         width: 100%;
-        height: 35rem;
+        height: 38rem;
         background-color: #1c1c1c;
         border-radius: 20px;
         display: flex;
         flex-direction: column;
     }
 
-    .blog-text{
+    .blog-text {
         width: 100%;
         height: 30rem;
         display: flex;
@@ -418,9 +582,9 @@
         flex-direction: column;
     }
 
-    .blog-daylight{
+    .blog-daylight {
         width: 90%;
-        height: 3rem;
+        height: 2rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -429,15 +593,15 @@
         font-size: 12px;
     }
 
-    .blog-con-btn{
+    .blog-con-btn {
         width: 90%;
-        height: 5rem;
+        height: 4rem;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    
-    .blog-con-animate{
+
+    .blog-con-animate {
         width: 70%;
         height: 3rem;
         display: flex;
@@ -461,48 +625,47 @@
         font-family: 'ClashDisplay-Semibold';
     }
 
-    .img-addblog1{
+    .img-addblog1 {
         width: 90%;
-        height: 4rem;
+        height: 8rem;
         background-image: url(close-up.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-color: yellowgreen;
         border-radius: 10px;
     }
 
-    .img-addblog2{
+    .img-addblog2 {
         width: 90%;
-        height: 4rem;
+        height: 8rem;
         background-image: url(portrait-person.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-color: yellowgreen;
+        border-radius: 10px;
     }
-    
-    .img-addblog3{
+
+    .img-addblog3 {
         width: 90%;
-        height: 4rem;
+        height: 8rem;
         background-image: url(artifi-in.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-color: yellowgreen;
+        border-radius: 10px;
     }
-    
-    .img-addblog4{
+
+    .img-addblog4 {
         width: 90%;
-        height: 4rem;
+        height: 8rem;
         background-image: url(ui-ux.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-color: yellowgreen;
+        border-radius: 10px;
     }
-    
-    .blog-contitle{
+
+    .blog-contitle {
         width: 90%;
         height: 8rem;
         font-family: 'ClashDisplay-Semibold';
@@ -513,33 +676,35 @@
         text-align: center;
         font-size: 30px;
     }
-    
-    .blog-context{
+
+    .blog-context {
         width: 90%;
         height: 14rem;
         text-align: justify;
         font-family: 'Inter', sans-serif;
         color: rgb(148, 148, 148);
         overflow: hidden;
+        font-size: 13px;
+        text-overflow: ellipsis;
     }
-    
-    .blog-image1{
+
+    .blog-image1 {
         width: 100%;
-        height: 5rem;
+        height: 10rem;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .blog-image2{
+    .blog-image2 {
         width: 100%;
-        height: 5rem;
+        height: 10rem;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .contact-container{
+    .contact-container {
         width: 90%;
         height: 30rem;
         border-bottom: solid;
@@ -549,7 +714,7 @@
         flex-direction: column;
     }
 
-    .contact-info{
+    .contact-info {
         width: 100%;
         height: 3rem;
         font-family: 'ClashDisplay-Semibold';
@@ -558,7 +723,7 @@
         flex-direction: row;
     }
 
-    .contact-inftext{
+    .contact-inftext {
         width: 50%;
         height: 3rem;
         font-family: 'ClashDisplay-Semibold';
@@ -567,8 +732,8 @@
         display: flex;
         align-items: center;
     }
-    
-    .contact-infnumber{
+
+    .contact-infnumber {
         width: 50%;
         height: 3rem;
         font-family: 'ClashDisplay-Semibold';
@@ -579,7 +744,7 @@
         justify-content: flex-end;
     }
 
-    .contact-form{
+    .contact-form {
         width: 100%;
         height: 25rem;
         display: flex;
@@ -587,12 +752,12 @@
         justify-content: center;
     }
 
-    .contact-form form{
+    .contact-form form {
         width: 100%;
         height: 25rem;
     }
 
-    .maildiv button{
+    .maildiv button {
         width: 100%;
         height: 5rem;
         border: none;
@@ -605,14 +770,14 @@
         margin-top: 1rem;
     }
 
-    .footer-container{
+    .footer-container {
         width: 90%;
         height: 10rem;
         display: flex;
         flex-direction: column;
     }
 
-    .footer-text{
+    .footer-text {
         width: 100%;
         height: 5rem;
         font-family: 'ClashDisplay-Regular';
@@ -622,8 +787,8 @@
         font-size: 10px;
         color: white;
     }
-    
-    .footer-social{
+
+    .footer-social {
         width: 100%;
         height: 5rem;
         display: flex;
@@ -631,7 +796,7 @@
         justify-content: space-evenly;
     }
 
-    .footer-icon{
+    .footer-icon {
         width: auto;
         height: 3rem;
         font-size: 10px;
