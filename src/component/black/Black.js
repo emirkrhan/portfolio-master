@@ -166,7 +166,9 @@ function Black() {
                                 <div className="tags-long"><a href='https://www.behance.net/emirhankrhan'>bh</a></div>
                                 <div className="tags-long"><a href='https://github.com/emirhankorhan'>gh</a></div>
                             </div>
+                            
                         </div>
+                        <div className="space-bott"></div>
                         </div>
                     </div> : ""}
                 </div>
