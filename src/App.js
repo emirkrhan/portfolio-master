@@ -1,18 +1,30 @@
 import './App.css'
 import React from 'react'
+import { useEffect, useState } from 'react'
 
 import { Route, Routes } from 'react-router-dom';
 import Black from './component/black/Black';
+import LoadingBar from './component/loadingbar/LoadingBar';
 
 
 
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simüle edilen bir yükleme işlemi
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, []);
 
   return(
     <div className="App">
       <Routes>
-          <Route path='/' element={<Black />} />
+      <Route path='/' element={loading ? <LoadingBar/> : <Black />} />
+
+          
           
         </Routes>
     </div>
