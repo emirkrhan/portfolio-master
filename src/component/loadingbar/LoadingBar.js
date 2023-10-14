@@ -4,7 +4,7 @@ import "./loadingbar.css"
 function LoadingBar() {
   return (
     <div className='loading-container'>
-        <div class="lds-ripple"><div></div><div></div></div>
+        <span class="loader"></span>
     </div>
   )
 }
