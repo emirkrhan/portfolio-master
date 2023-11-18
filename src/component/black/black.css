@@ -349,7 +349,7 @@
     height: 28rem;
     border-radius: 10px;
     display: none;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     align-items: center;
     justify-content: center;
 }
@@ -357,29 +357,25 @@
 .white-animation-box {
     width: 10rem;
     height: 10rem;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 50%;
-    background-image: url(circleincele.png);
+    background-color: transparent;
+    background-image: url(arrow-top.svg);
     background-position: center;
+    background-size: 35%;
     background-repeat: no-repeat;
-    background-size: 110%;
-    animation-name: circlewhite;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-name: bigbox;
+    animation-duration: 0.1s;
 }
 
-@keyframes circlewhite {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
+@keyframes bigbox{
+    from{
+        width: 0rem;
+        height: 0rem;
+    }to{
+        width: 10rem;
+        height: 10rem;
     }
 }
 
@@ -550,8 +546,8 @@
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    top: -15px;
-    left: -10px;
+    top: -30px;
+    left: -30px;
     transition: transform 0.15s ease;
     mix-blend-mode: difference;
 }
@@ -710,7 +706,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: yellowgreen;
+    border-radius: 3px;
 }
 
 .img-addblog2{
@@ -720,7 +716,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: yellowgreen;
+    border-radius: 3px;
 }
 
 .img-addblog3{
@@ -730,7 +726,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: yellowgreen;
+    border-radius: 3px;
 }
 
 .img-addblog4{
@@ -740,7 +736,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: yellowgreen;
+    border-radius: 3px;
 }
 
 .big-contact{

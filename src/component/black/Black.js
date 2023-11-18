@@ -249,38 +249,38 @@ function Black() {
                 <div className="project-box">
                     <div className='boxs-one'>
                         <div className='box-one'>
-                            <div className='boxone-image'><div className="black-boximage"><div className="white-animation-box"><i class="fa-solid fa-asterisk"></i></div></div></div>
+                            <div className='boxone-image'><div className="black-boximage"><div className="white-animation-box"></div></div></div>
                             <div className='boxone-title'>DEVIL - BOOK COVER</div>
                         </div>
                         <div className='box-two'>
-                            <div className='boxtwo-image'><div className="black-boximage"><div className="white-animation-box"><i class="fa-solid fa-asterisk"></i></div></div></div>
+                            <div className='boxtwo-image'><div className="black-boximage"><div className="white-animation-box"></div></div></div>
                             <div className='boxone-title'>FLOODY - MOBILE APP</div>
                         </div>
                         <div className='box-three'>
-                            <div className='boxthree-image'><div className="black-boximage"><div className="white-animation-box"><i class="fa-solid fa-asterisk"></i></div></div></div>
+                            <div className='boxthree-image'><div className="black-boximage"><div className="white-animation-box"></div></div></div>
                             <div className='boxone-title'>ALIVE - MOVIE BANNER</div>
                         </div>
                     </div>
                     <div className='boxs-two'>
 
                         <div className='box-four'>
-                            <div className='boxfour-image'><div className="black-boximage"><div className="white-animation-box"><i class="fa-solid fa-asterisk"></i></div></div></div>
+                            <div className='boxfour-image'><div className="black-boximage"><div className="white-animation-box"></div></div></div>
                             <div className='boxone-title'>BLAKE BURGER - ADVERTISEMENT</div>
                         </div>
                         <div className='box-two'>
-                            <div className='boxfive-image'><div className="black-boximage"><div className="white-animation-box"><i class="fa-solid fa-asterisk"></i></div></div></div>
+                            <div className='boxfive-image'><div className="black-boximage"><div className="white-animation-box"></div></div></div>
                             <div className='boxone-title'>TEK BİR PATİ - BANNER DESIGN</div>
                         </div>
                         <div className='box-three'>
-                            <div className='boxsix-image'><div className="black-boximage"><div className="white-animation-box"><i class="fa-solid fa-asterisk"></i></div></div></div>
+                            <div className='boxsix-image'><div className="black-boximage"><div className="white-animation-box"></div></div></div>
                             <div className='boxone-title'>FLEE - MOBILE APP</div>
                         </div>
                     </div>
                     <div className="project-btntext">
-                        <div className="pro-text">Projeleri daha yakından incelemek <br /> için ilgili projeye tıkla! Daha fazlası <br /> çok yakında burada olacak...</div>
+                        <div className="pro-text">Daha fazla proje görmek ve çalışmaları <br/> yakından incelemek için fotoğraf <br/> galerisine göz atmayı unutma!</div>
                         <div className="pro-btn">
 
-                            <a className="btn-pro" href="/">TÜMÜNÜ GÖR</a>
+                            <a className="btn-pro" href="/">GALERİYİ GÖR</a>
 
                         </div>
                     </div>
