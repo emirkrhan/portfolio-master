@@ -30,6 +30,79 @@
     justify-content: center;
 }
 
+.ruin-container{
+    width: 90%;
+    height: 40rem;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.ruin-text{
+    width: 100%;
+    height: 9rem;
+    font-family: 'ClashDisplay-Semibold';
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+}
+
+.ruin-slogan{
+    width: 100%;
+    height: 4rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: rgb(148, 148, 148);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ruin-works{
+    width: 100%;
+    height: 27rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ruin-image1{
+    width: 30%;
+    height: 20rem;
+    background-image: url(missing\ eye.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.ruin-image2{
+    width: 30%;
+    height: 20rem;
+    background-image: url(dete\ poster.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.ruin-image3{
+    width: 30%;
+    height: 20rem;
+    background-image: url(heaven.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
 
 
 .menu-container {
@@ -38,12 +111,17 @@
     display: flex;
 }
 
-.menu-phone-icon{
+.menu-phone-icon {
     display: none;
 }
 
-.menu-logo {
+.menu-logoanimation{
     width: 50%;
+    height: 3rem;
+}
+
+.menu-logo {
+    width: 100%;
     height: 3rem;
     display: flex;
     align-items: center;
@@ -54,8 +132,13 @@
     color: white;
 }
 
-.menu-tag {
+.menu-taganimation{
     width: 50%;
+    height: 3rem;
+}
+
+.menu-tag {
+    width: 100%;
     height: 3rem;
     display: flex;
     align-items: center;
@@ -78,8 +161,13 @@
     color: rgb(201, 201, 201);
 }
 
-.about-container {
+.about-containeranimation{
     width: 90%;
+    height: 18rem;
+}
+
+.about-container {
+    width: 100%;
     height: 18rem;
     border-bottom: solid;
     border-width: 1px;
@@ -134,7 +222,7 @@
     align-items: center;
 }
 
-.big-about {
+.big-aboutanimation{
     width: 90%;
     height: 16vw;
     border-bottom: solid;
@@ -147,6 +235,12 @@
     align-items: center;
     justify-content: center;
     user-select: none;
+}
+
+.big-about {
+    width: 100%;
+    height: 100%;
+    
 }
 
 .about-two-cont {
@@ -165,6 +259,11 @@
     width: 100%;
     height: 3rem;
     display: flex;
+}
+
+.about-smalleranimation{
+    width: 100%;
+    height: 3rem;
 }
 
 .abbout {
@@ -192,6 +291,11 @@
     justify-content: flex-end;
     color: white;
     letter-spacing: 1px;
+}
+
+.photoandtextanimation{
+    width: 100%;
+    height: 20rem;
 }
 
 .photoandtext {
@@ -234,8 +338,13 @@
     color: white;
 }
 
-.texts-life {
+.texts-lifeanimation{
     width: 60%;
+    height: auto;
+}
+
+.texts-life {
+    width: 100%;
     height: auto;
 }
 
@@ -307,6 +416,11 @@
     color: white;
 }
 
+.project-boxanimation{
+    width: 100%;
+    height: auto;
+}
+
 .project-box {
     width: 100%;
     height: auto;
@@ -369,11 +483,13 @@
     animation-duration: 0.1s;
 }
 
-@keyframes bigbox{
-    from{
+@keyframes bigbox {
+    from {
         width: 0rem;
         height: 0rem;
-    }to{
+    }
+
+    to {
         width: 10rem;
         height: 10rem;
     }
@@ -489,39 +605,6 @@
     justify-content: center;
 }
 
-.btn-pro {
-    display: inline-block;
-    padding: 1rem 2rem;
-    font-size: 14px;
-    font-weight: 700;
-    color: rgb(148, 148, 148);
-    border: 3px solid rgb(255, 255, 255);
-    cursor: pointer;
-    position: relative;
-    background-color: transparent;
-    text-decoration: none;
-    overflow: hidden;
-    z-index: 1;
-    font-family: 'ClashDisplay-Semibold';
-}
-
-.btn-pro::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(255, 255, 255);
-    transform: translateX(-100%);
-    transition: all .3s;
-    z-index: -1;
-}
-
-.btn-pro:hover::before {
-    transform: translateX(0);
-}
-
 .blog-container {
     width: 90%;
     height: auto;
@@ -550,9 +633,10 @@
     left: -30px;
     transition: transform 0.15s ease;
     mix-blend-mode: difference;
+    z-index: 999999999;
 }
 
-.upbtn{
+.upbtn {
     width: 3rem;
     height: 3rem;
     position: fixed;
@@ -568,9 +652,10 @@
     cursor: pointer;
     border: none;
     outline: none;
+    z-index: 99999999999;
 }
 
-.blogs-div{
+.blogs-div {
     width: 100%;
     height: 130rem;
     display: flex;
@@ -579,7 +664,17 @@
     flex-direction: column;
 }
 
-.blog-content1{
+.blog-content1animation{
+    width: 100%;
+    height: 30rem;
+}
+
+.blog-content2animation{
+    width: 100%;
+    height: 30rem;
+}
+
+.blog-content1 {
     width: 100%;
     height: 30rem;
     background-color: #1c1c1c;
@@ -587,7 +682,7 @@
     display: flex;
 }
 
-.blog-content2{
+.blog-content2 {
     width: 100%;
     height: 30rem;
     background-color: #1c1c1c;
@@ -595,7 +690,7 @@
     display: flex;
 }
 
-.blog-text{
+.blog-text {
     width: 65%;
     height: 30rem;
     display: flex;
@@ -604,14 +699,14 @@
     flex-direction: column;
 }
 
-.blog-image1{
+.blog-image1 {
     width: 35%;
     height: 30rem;
     display: flex;
     align-items: center;
 }
 
-.blog-image2{
+.blog-image2 {
     width: 35%;
     height: 30rem;
     display: flex;
@@ -619,7 +714,7 @@
     justify-content: flex-end;
 }
 
-.blog-daylight{
+.blog-daylight {
     width: 80%;
     height: 2rem;
     display: flex;
@@ -629,12 +724,12 @@
     font-size: 12px;
 }
 
-.blog-daylight i{
+.blog-daylight i {
     font-size: 7px;
     color: red;
 }
 
-.blog-contitle{
+.blog-contitle {
     width: 80%;
     height: 8rem;
     font-family: 'ClashDisplay-Semibold';
@@ -644,7 +739,7 @@
     font-size: 45px;
 }
 
-.blog-context{
+.blog-context {
     width: 80%;
     height: 10rem;
     text-align: justify;
@@ -652,14 +747,14 @@
     color: rgb(148, 148, 148);
 }
 
-.blog-con-btn{
+.blog-con-btn {
     width: 80%;
     height: 5rem;
     display: flex;
     align-items: center;
 }
 
-.blog-con-animate{
+.blog-con-animate {
     width: 40%;
     height: 3rem;
     display: flex;
@@ -667,39 +762,89 @@
 }
 
 .btn-problog {
-    display: inline-block;
-    padding: 0.8rem 2rem;
-    font-size: 14px;
-    font-weight: 700;
-    color: rgb(148, 148, 148);
-    border: 3px solid rgb(255, 255, 255);
-    cursor: pointer;
-    position: relative;
-    background-color: transparent;
-    text-decoration: none;
-    overflow: hidden;
-    z-index: 1;
+    width: 12rem;
+    height: 3rem;
+    border: solid 3px white;
     font-family: 'ClashDisplay-Semibold';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(148, 148, 148);
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
 }
 
-.btn-problog::before {
-    content: "";
+.btn-pro {
+    width: 10rem;
+    height: 3rem;
+    border: solid 3px white;
+    font-family: 'ClashDisplay-Semibold';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(148, 148, 148);
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+}
+
+.btn-problog .hover-tagg {
+    width: 0%;
+    height: 3rem;
     position: absolute;
-    left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(255, 255, 255);
-    transform: translateX(-100%);
-    transition: all .3s;
+    left: 0;
+    background-color: white;
     z-index: -1;
+    animation: tagg2 0.5s forwards;
 }
 
-.btn-problog:hover::before {
-    transform: translateX(0);
+.btn-pro .hover-tagg {
+    width: 0%;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: -1;
+    animation: tagg2 0.5s forwards;
 }
 
-.img-addblog1{
+@keyframes tagg2 {
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: 0%;
+    }
+}
+
+
+
+.btn-problog:hover .hover-tagg {
+    animation: tagg 0.5s forwards;
+}
+
+.btn-pro:hover .hover-tagg {
+    animation: tagg 0.5s forwards;
+}
+
+@keyframes tagg {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+
+
+
+.img-addblog1 {
     width: 80%;
     height: 25rem;
     background-image: url(close-up.jpg);
@@ -709,7 +854,7 @@
     border-radius: 3px;
 }
 
-.img-addblog2{
+.img-addblog2 {
     width: 80%;
     height: 25rem;
     background-image: url(portrait-person.jpg);
@@ -719,7 +864,7 @@
     border-radius: 3px;
 }
 
-.img-addblog3{
+.img-addblog3 {
     width: 80%;
     height: 25rem;
     background-image: url(artifi-in.jpg);
@@ -729,7 +874,7 @@
     border-radius: 3px;
 }
 
-.img-addblog4{
+.img-addblog4 {
     width: 80%;
     height: 25rem;
     background-image: url(ui-ux.jpg);
@@ -739,9 +884,14 @@
     border-radius: 3px;
 }
 
-.big-contact{
+.big-contactanimation{
     width: 90%;
     height: 16vw;
+}
+
+.big-contact {
+    width: 100%;
+    height: 100%;
     border-bottom: solid;
     border-width: 1px;
     border-color: rgb(44, 44, 44);
@@ -754,7 +904,7 @@
     user-select: none;
 }
 
-.contact-container{
+.contact-container {
     width: 90%;
     height: 35rem;
     border-bottom: solid;
@@ -763,8 +913,13 @@
     display: flex;
 }
 
-.contact-info{
+.contact-infoanimation{
     width: 30%;
+    height: 35rem;
+}
+
+.contact-info {
+    width: 100%;
     height: 35rem;
     font-family: 'ClashDisplay-Semibold';
     color: white;
@@ -774,7 +929,7 @@
     flex-direction: column;
 }
 
-.contact-inftext{
+.contact-inftext {
     width: 100%;
     height: 3rem;
     font-family: 'ClashDisplay-Semibold';
@@ -784,27 +939,33 @@
     align-items: center;
 }
 
-.contact-infnumber{
+.contact-infnumber {
     width: 100%;
     height: 10rem;
     font-family: 'ClashDisplay-Semibold';
     font-size: 30px;
     color: rgb(71, 71, 71);
 }
-.contact-form{
+
+.contact-formanimation{
     width: 70%;
+    height: 35rem;
+}
+
+.contact-form {
+    width: 100%;
     height: 35rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.contact-form form{
+.contact-form form {
     width: 100%;
     height: 25rem;
 }
 
-.maildiv{
+.maildiv {
     width: 100%;
     height: 26rem;
     display: flex;
@@ -813,7 +974,7 @@
     flex-direction: column;
 }
 
-.maildiv .mail-inpp input{
+.maildiv .mail-inpp input {
     width: 100%;
     height: 5rem;
     background-color: transparent;
@@ -824,7 +985,7 @@
     color: white;
 }
 
-.maildiv .mail-inpp{
+.maildiv .mail-inpp {
     width: 100%;
     height: 5rem;
     border-bottom: solid;
@@ -832,7 +993,7 @@
     border-color: rgb(44, 44, 44);
 }
 
-.maildiv .mail-texx{
+.maildiv .mail-texx {
     width: 100%;
     height: 10rem;
     border-bottom: solid;
@@ -840,7 +1001,7 @@
     border-color: rgb(44, 44, 44);
 }
 
-.maildiv .mail-texx textarea{
+.maildiv .mail-texx textarea {
     width: 100%;
     height: 8rem;
     resize: none;
@@ -853,7 +1014,12 @@
     color: white;
 }
 
-.maildiv button{
+.buttonmailanimation{
+    width: 100%;
+    height: 5rem;
+}
+
+.maildiv button {
     width: 100%;
     height: 5rem;
     border: none;
@@ -866,20 +1032,25 @@
     margin-top: 1rem;
 }
 
-.maildiv button:hover{
+.maildiv button:hover {
     border: solid;
     border-width: 1px;
     border-color: white;
 }
 
-.footer-container{
+.footer-container {
     width: 90%;
     height: 10rem;
     display: flex;
 }
 
-.footer-text{
+.footer-textanimation{
     width: 70%;
+    height: 10rem;
+}
+
+.footer-text {
+    width: 100%;
     height: 10rem;
     font-family: 'ClashDisplay-Regular';
     display: flex;
@@ -888,19 +1059,24 @@
     color: white;
 }
 
-.footer-text i{
+.footer-text i {
     font-size: 10px;
 }
 
-.footer-social{
+.footer-socialanimation{
     width: 30%;
+    height: 10rem;
+}
+
+.footer-social {
+    width: 100%;
     height: 10rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.footer-icon{
+.footer-icon {
     width: auto;
     height: 3rem;
     font-size: 15px;
@@ -910,7 +1086,7 @@
     font-family: 'ClashDisplay-Regular';
 }
 
-.footer-icon a{
+.footer-icon a {
     text-decoration: none;
     color: white;
 }

@@ -22,7 +22,7 @@ function App() {
   return(
     <div className="App">
       <Routes>
-      <Route path='/' element={loading ? <LoadingBar/> : <Black />} />
+      <Route path='/' element={<Black />}/>
 
           
           
