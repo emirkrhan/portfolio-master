@@ -4,13 +4,11 @@ import { useEffect, useState } from 'react'
 
 import { Route, Routes } from 'react-router-dom';
 import Black from './component/black/Black';
-import LoadingBar from './component/loadingbar/LoadingBar';
 
 
 
 
 function App() {
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     // Simüle edilen bir yükleme işlemi
