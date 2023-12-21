@@ -30,7 +30,7 @@
     justify-content: center;
 }
 
-.ruin-container{
+.ruin-container {
     width: 90%;
     height: 40rem;
     border-bottom: solid;
@@ -42,7 +42,7 @@
     flex-direction: column;
 }
 
-.ruin-text{
+.ruin-text {
     width: 100%;
     height: 9rem;
     font-family: 'ClashDisplay-Semibold';
@@ -53,7 +53,7 @@
     font-size: 50px;
 }
 
-.ruin-slogan{
+.ruin-slogan {
     width: 100%;
     height: 4rem;
     font-family: 'Inter', sans-serif;
@@ -65,7 +65,7 @@
     text-align: center;
 }
 
-.ruin-works{
+.ruin-works {
     width: 100%;
     height: 27rem;
     display: flex;
@@ -73,30 +73,30 @@
     justify-content: space-evenly;
 }
 
-.ruin-image1{
+.ruin-image1 {
     width: 30%;
     height: 20rem;
-    background-image: url(missing\ eye.jpg);
+    background-image: url(images/missing-eye.avif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
 }
 
-.ruin-image2{
+.ruin-image2 {
     width: 30%;
     height: 20rem;
-    background-image: url(dete\ poster.jpg);
+    background-image: url(images/dete-poster.avif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
 }
 
-.ruin-image3{
+.ruin-image3 {
     width: 30%;
     height: 20rem;
-    background-image: url(heaven.jpg);
+    background-image: url(images/heaven.avif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -115,7 +115,7 @@
     display: none;
 }
 
-.menu-logoanimation{
+.menu-logoanimation {
     width: 50%;
     height: 3rem;
 }
@@ -132,7 +132,7 @@
     color: white;
 }
 
-.menu-taganimation{
+.menu-taganimation {
     width: 50%;
     height: 3rem;
 }
@@ -161,7 +161,7 @@
     color: rgb(201, 201, 201);
 }
 
-.about-containeranimation{
+.about-containeranimation {
     width: 90%;
     height: 18rem;
 }
@@ -222,7 +222,7 @@
     align-items: center;
 }
 
-.big-aboutanimation{
+.big-aboutanimation {
     width: 90%;
     height: 16vw;
     border-bottom: solid;
@@ -240,7 +240,7 @@
 .big-about {
     width: 100%;
     height: 100%;
-    
+
 }
 
 .about-two-cont {
@@ -261,7 +261,7 @@
     display: flex;
 }
 
-.about-smalleranimation{
+.about-smalleranimation {
     width: 100%;
     height: 3rem;
 }
@@ -293,7 +293,7 @@
     letter-spacing: 1px;
 }
 
-.photoandtextanimation{
+.photoandtextanimation {
     width: 100%;
     height: 20rem;
 }
@@ -307,7 +307,7 @@
 .photo-ab {
     width: 35%;
     height: 20rem;
-    background-image: url(ımım.png);
+    background-image: url(images/profile.avif);
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: center;
@@ -338,7 +338,7 @@
     color: white;
 }
 
-.texts-lifeanimation{
+.texts-lifeanimation {
     width: 60%;
     height: auto;
 }
@@ -416,7 +416,7 @@
     color: white;
 }
 
-.project-boxanimation{
+.project-boxanimation {
     width: 100%;
     height: auto;
 }
@@ -449,7 +449,7 @@
     width: 23rem;
     height: 28rem;
     border-radius: 10px;
-    background-image: url(devil2.png);
+    background-image: url(images/devil.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -472,7 +472,7 @@
     width: 10rem;
     height: 10rem;
     background-color: transparent;
-    background-image: url(arrow-top.svg);
+    background-image: url(images/arrow-top.svg);
     background-position: center;
     background-size: 35%;
     background-repeat: no-repeat;
@@ -518,7 +518,7 @@
     width: 23rem;
     height: 28rem;
     border-radius: 10px;
-    background-image: url(floodyapp.jpg);
+    background-image: url(images/floodyapp.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -531,7 +531,7 @@
     width: 23rem;
     height: 28rem;
     border-radius: 10px;
-    background-image: url(alive2.png);
+    background-image: url(images/alive.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -544,7 +544,7 @@
     width: 23rem;
     height: 28rem;
     border-radius: 10px;
-    background-image: url(blake.png);
+    background-image: url(images/blake.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -557,7 +557,7 @@
     width: 23rem;
     height: 28rem;
     border-radius: 10px;
-    background-image: url(pati2.png);
+    background-image: url(images/pati.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -570,7 +570,7 @@
     width: 23rem;
     height: 28rem;
     border-radius: 10px;
-    background-image: url(flee4.png);
+    background-image: url(images/flee.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -652,7 +652,7 @@
     cursor: pointer;
     border: none;
     outline: none;
-    z-index: 99999999999;
+    z-index: 10000;
 }
 
 .blogs-div {
@@ -664,12 +664,12 @@
     flex-direction: column;
 }
 
-.blog-content1animation{
+.blog-content1animation {
     width: 100%;
     height: 30rem;
 }
 
-.blog-content2animation{
+.blog-content2animation {
     width: 100%;
     height: 30rem;
 }
@@ -847,7 +847,7 @@
 .img-addblog1 {
     width: 80%;
     height: 25rem;
-    background-image: url(close-up.jpg);
+    background-image: url(images/close-up.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -857,7 +857,7 @@
 .img-addblog2 {
     width: 80%;
     height: 25rem;
-    background-image: url(portrait-person.jpg);
+    background-image: url(images/portrait-person.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -867,7 +867,7 @@
 .img-addblog3 {
     width: 80%;
     height: 25rem;
-    background-image: url(artifi-in.jpg);
+    background-image: url(images/artifi-in.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -877,14 +877,14 @@
 .img-addblog4 {
     width: 80%;
     height: 25rem;
-    background-image: url(ui-ux.jpg);
+    background-image: url(images/ui-ux.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 3px;
 }
 
-.big-contactanimation{
+.big-contactanimation {
     width: 90%;
     height: 16vw;
 }
@@ -913,7 +913,7 @@
     display: flex;
 }
 
-.contact-infoanimation{
+.contact-infoanimation {
     width: 30%;
     height: 35rem;
 }
@@ -947,7 +947,7 @@
     color: rgb(71, 71, 71);
 }
 
-.contact-formanimation{
+.contact-formanimation {
     width: 70%;
     height: 35rem;
 }
@@ -1014,7 +1014,7 @@
     color: white;
 }
 
-.buttonmailanimation{
+.buttonmailanimation {
     width: 100%;
     height: 5rem;
 }
@@ -1044,7 +1044,7 @@
     display: flex;
 }
 
-.footer-textanimation{
+.footer-textanimation {
     width: 70%;
     height: 10rem;
 }
@@ -1063,7 +1063,7 @@
     font-size: 10px;
 }
 
-.footer-socialanimation{
+.footer-socialanimation {
     width: 30%;
     height: 10rem;
 }
@@ -1089,4 +1089,1129 @@
 .footer-icon a {
     text-decoration: none;
     color: white;
+}
+
+@media screen and (max-width: 500px) and (min-width: 0px) {
+    .menu-tag {
+        display: none;
+    }
+
+    .menu-phone-icon {
+        width: 50%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: white;
+    }
+
+    .menu-phone-icon .button-black {
+        width: 3rem;
+        height: 3rem;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        border: none;
+        outline: none;
+        z-index: 99999999999;
+        position: fixed;
+    }
+
+    .opening-menu-container {
+        width: 200rem;
+        height: 200rem;
+        position: fixed;
+        background-color: rgb(0, 0, 0);
+        top: -100rem;
+        right: -100rem;
+        z-index: 99;
+        border-radius: 50%;
+        animation-name: menuclick;
+        animation-duration: 1s;
+    }
+
+    @keyframes menuclick {
+        from {
+            width: 0rem;
+            height: 0rem;
+        }
+
+        to {
+            width: 200rem;
+            height: 200rem;
+        }
+
+    }
+
+    .transparent-menu-div {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+
+    .tagxopen {
+        width: 15rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation-name: tagani;
+        animation-duration: 0.5s;
+        animation-timing-function: linear;
+        animation-delay: 0.5s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+
+    .bottom-open {
+        width: 100%;
+        height: 18rem;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .bottom-country {
+        width: 50%;
+        height: 6rem;
+        font-family: 'ClashDisplay-Semibold';
+        color: white;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        padding-left: 2rem;
+        animation-name: tagani;
+        animation-duration: 0.5s;
+        animation-timing-function: linear;
+        animation-delay: 0.5s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+
+    .bottom-tags {
+        width: 50%;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 2rem;
+    }
+
+    .space-bott {
+        width: 100%;
+        height: 4rem;
+    }
+
+    .tags-long {
+        width: 1.5rem;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'ClashDisplay-Semibold';
+        color: white;
+        font-size: 13px;
+        animation-name: tagani;
+        animation-duration: 0.5s;
+        animation-timing-function: linear;
+        animation-delay: 0.5s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+
+    .tags-long a {
+        color: white;
+        text-decoration: none;
+    }
+
+    @keyframes tagani {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .tagxopen button {
+        width: 12rem;
+        height: 3rem;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 25px;
+        color: white;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+
+    .upbtn {
+        width: 3rem;
+        height: 3rem;
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        background-color: white;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        border-radius: 50%;
+        font-size: 12px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+
+    .menu-logo {
+        width: 50%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        font-family: 'ClashDisplay-Semibold';
+        letter-spacing: 1px;
+        font-size: 10px;
+        color: white;
+    }
+
+    .about-text {
+        width: 70%;
+        font-size: 5vw;
+    }
+
+    .number-text {
+        width: 30%;
+    }
+
+    .follower {
+        display: none;
+    }
+
+    .abbout {
+        width: 65%;
+        height: 3rem;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        color: white;
+        letter-spacing: 1px;
+    }
+
+    .years-about {
+        width: 35%;
+        height: 3rem;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: white;
+        letter-spacing: 1px;
+    }
+
+    .photo-ab {
+        width: 100%;
+        height: 10rem;
+        background-image: url(images/profile.avif);
+        background-repeat: no-repeat;
+        background-size: 45%;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .number-ab {
+        width: 10rem;
+        height: 10rem;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 30px;
+        color: rgb(71, 71, 71);
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .about-ab {
+        width: 100%;
+        height: 50vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 7vw;
+        color: white;
+        text-align: center;
+        border-bottom: solid;
+        border-width: 1px;
+        border-color: rgb(44, 44, 44);
+    }
+
+    .menu-phone-icon {
+        width: 50%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: white;
+    }
+
+    .menu-phone-icon .button-white {
+        width: 3rem;
+        height: 3rem;
+        color: white;
+        border: none;
+        outline: none;
+        z-index: 99999999999;
+        background-color: transparent;
+    }
+    .opening-menu-container {
+        width: 200rem;
+        height: 200rem;
+        position: fixed;
+        background-color: rgb(0, 0, 0);
+        top: -100rem;
+        right: -100rem;
+        z-index: 99;
+        border-radius: 50%;
+        animation-name: menuclick;
+        animation-duration: 1s;
+        z-index: 100000;
+    }
+
+    @keyframes menuclick {
+        from {
+            width: 0rem;
+            height: 0rem;
+        }
+
+        to {
+            width: 200rem;
+            height: 200rem;
+        }
+
+    }
+
+    .transparent-menu-div {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .tagxopen {
+        width: 15rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation-name: tagani;
+        animation-duration: 0.5s;
+        animation-timing-function: linear;
+        animation-delay: 0.5s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+
+    .bottom-open {
+        width: 100%;
+        height: 18rem;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .bottom-country {
+        width: 50%;
+        height: 6rem;
+        font-family: 'ClashDisplay-Semibold';
+        color: white;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        padding-left: 2rem;
+        animation-name: tagani;
+        animation-duration: 0.5s;
+        animation-timing-function: linear;
+        animation-delay: 0.5s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+
+    .bottom-tags {
+        width: 50%;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 2rem;
+    }
+
+    .space-bott {
+        width: 100%;
+        height: 4rem;
+    }
+
+    .tags-long {
+        width: 1.5rem;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'ClashDisplay-Semibold';
+        color: white;
+        font-size: 13px;
+        animation-name: tagani;
+        animation-duration: 0.5s;
+        animation-timing-function: linear;
+        animation-delay: 0.5s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+
+    .tags-long a {
+        color: white;
+        text-decoration: none;
+    }
+
+    @keyframes tagani {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .tagxopen button {
+        width: 12rem;
+        height: 3rem;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 25px;
+        color: white;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+
+    .menu-logo {
+        width: 50%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        font-family: 'ClashDisplay-Semibold';
+        letter-spacing: 1px;
+        font-size: 10px;
+        color: white;
+    }
+
+    .who-am-i {
+        width: 100%;
+        height: 3rem;
+        font-family: 'ClashDisplay-Semibold';
+        letter-spacing: 1px;
+        font-size: 10px;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+
+    .about-container {
+        width: 100%;
+        height: 14rem;
+        border-bottom: solid;
+        border-width: 1px;
+        border-color: rgb(44, 44, 44);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .about-containeranimation {
+        width: 90%;
+        height: 14rem;
+    }
+
+    .about-number-div {
+        width: 100%;
+        height: 9rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .number-text {
+        width: 90%;
+        height: 4rem;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 30px;
+        color: rgb(71, 71, 71);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .about-text {
+        width: 100%;
+        height: 7rem;
+        font-family: 'Inter', sans-serif;
+        font-size: 5vw;
+        font-weight: 500;
+        color: white;
+        display: flex;
+        align-items: center;
+        text-align: start;
+    }
+
+    .follower {
+        display: none;
+    }
+
+
+
+    .photoandtext {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .photoandtextanimation {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    .texts-life {
+        width: 100%;
+        height: auto;
+    }
+
+    .texts-lifeanimation {
+        width: 70%;
+        height: auto;
+    }
+
+    .texts-cont {
+        width: 100%;
+        min-height: 17rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texts-number {
+        width: 100%;
+        min-height: 2rem;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 11px;
+        color: white;
+    }
+
+    .texts-a-text {
+        width: 100%;
+        min-height: 15rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texts-title {
+        width: 100%;
+        min-height: 3rem;
+        height: auto;
+        font-family: 'ClashDisplay-Semibold';
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 18px;
+    }
+
+    .texts-myower {
+        width: 100%;
+        min-height: 12rem;
+        height: auto;
+        text-align: justify;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        color: rgb(148, 148, 148);
+        font-size: 14px;
+    }
+
+    .project-title {
+        width: 100%;
+        height: 3rem;
+        font-family: 'ClashDisplay-Semibold';
+        letter-spacing: 1px;
+        font-size: 10px;
+        color: rgb(148, 148, 148);
+        display: flex;
+        align-items: center;
+    }
+
+    .boxs-one,
+    .boxs-two {
+        width: 100%;
+        height: 72rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .box-one,
+    .box-two,
+    .box-three,
+    .box-four,
+    .box-five,
+    .box-six {
+        width: 90%;
+        height: 24rem;
+    }
+
+    .boxone-title {
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 13px;
+        color: white;
+    }
+
+    .boxone-image {
+        width: 100%;
+        height: 21rem;
+        border-radius: 10px;
+        background-image: url(images/devil.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boxtwo-image {
+        width: 100%;
+        height: 21rem;
+        border-radius: 10px;
+        background-image: url(images/floodyapp.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boxthree-image {
+        width: 100%;
+        height: 21rem;
+        border-radius: 10px;
+        background-image: url(images/alive.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boxfour-image {
+        width: 100%;
+        height: 21rem;
+        border-radius: 10px;
+        background-image: url(images/blake.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boxfive-image {
+        width: 100%;
+        height: 21rem;
+        border-radius: 10px;
+        background-image: url(images/pati.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boxsix-image {
+        width: 100%;
+        height: 21rem;
+        border-radius: 10px;
+        background-image: url(images/flee.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .black-boximage {
+        width: 100%;
+        height: 21rem;
+        border-radius: 10px;
+        display: none;
+        background-color: rgba(0, 0, 0, 0.5);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-btntext {
+        width: 100%;
+        height: 12rem;
+    }
+
+    .pro-text {
+        width: 100%;
+        height: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        color: rgb(148, 148, 148);
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .pro-btn {
+        width: 100%;
+        height: 5rem;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .btn-pro {
+        display: inline-block;
+        padding: 0.7rem 1.4rem;
+        font-size: 12px;
+        font-weight: 700;
+        color: rgb(148, 148, 148);
+        border: 3px solid rgb(255, 255, 255);
+        cursor: pointer;
+        position: relative;
+        background-color: transparent;
+        text-decoration: none;
+        overflow: hidden;
+        z-index: 1;
+        font-family: 'ClashDisplay-Semibold';
+    }
+
+    .blog-title {
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 10px;
+        color: white;
+    }
+
+    .blogs-div {
+        width: 100%;
+        height: 145rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .blog-content1 {
+        width: 100%;
+        height: 34rem;
+        background-color: #1c1c1c;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .blog-content1animation {
+        width: 100%;
+        height: 34rem;
+    }
+
+    .blog-content2animation {
+        width: 100%;
+        height: 34rem;
+    }
+
+    .blog-content2 {
+        width: 100%;
+        height: 34rem;
+        background-color: #1c1c1c;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog-text {
+        width: 100%;
+        height: 24rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .blog-daylight {
+        width: 90%;
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'ClashDisplay-Semibold';
+        color: white;
+        font-size: 12px;
+    }
+
+    .blog-con-btn {
+        width: 90%;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blog-con-animate {
+        width: 70%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-pro {
+        width: 6rem;
+        height: 2rem;
+        border: solid 3px white;
+        font-family: 'ClashDisplay-Semibold';
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(148, 148, 148);
+        font-size: 13px;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .img-addblog1 {
+        width: 90%;
+        height: 8rem;
+        background-image: url(images/close-up.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+    .img-addblog2 {
+        width: 90%;
+        height: 8rem;
+        background-image: url(images/portrait-person.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+    .img-addblog3 {
+        width: 90%;
+        height: 8rem;
+        background-image: url(images/artifi-in.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+    .img-addblog4 {
+        width: 90%;
+        height: 8rem;
+        background-image: url(images/ui-ux.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+    .blog-contitle {
+        width: 90%;
+        height: 6rem;
+        font-family: 'ClashDisplay-Semibold';
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .blog-context {
+        width: 90%;
+        height: 10rem;
+        text-align: justify;
+        font-family: 'Inter', sans-serif;
+        color: rgb(148, 148, 148);
+        overflow: hidden;
+        font-size: 13px;
+        text-overflow: ellipsis;
+    }
+
+    .blog-image1 {
+        width: 100%;
+        height: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blog-image2 {
+        width: 100%;
+        height: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-container {
+        width: 90%;
+        height: 30rem;
+        border-bottom: solid;
+        border-width: 1px;
+        border-color: rgb(44, 44, 44);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-info {
+        width: 100%;
+        height: 3rem;
+        font-family: 'ClashDisplay-Semibold';
+        color: white;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact-infoanimation {
+        width: 100%;
+        height: 3rem;
+    }
+
+    .contact-inftext {
+        width: 50%;
+        height: 3rem;
+        font-family: 'ClashDisplay-Semibold';
+        color: white;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-infnumber {
+        width: 50%;
+        height: 3rem;
+        font-family: 'ClashDisplay-Semibold';
+        font-size: 20px;
+        color: rgb(71, 71, 71);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .contact-form {
+        width: 100%;
+        height: 25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-formanimation {
+        width: 100%;
+        height: 25rem;
+    }
+
+    .contact-form form {
+        width: 100%;
+        height: 25rem;
+    }
+
+    .maildiv button {
+        width: 100%;
+        height: 5rem;
+        border: none;
+        outline: none;
+        font-family: 'ClashDisplay-Regular';
+        font-size: 18px;
+        color: white;
+        background-color: #1c1c1c;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+
+    .buttonmailanimation {
+        width: 100%;
+        height: 6rem;
+    }
+
+    .footer-container {
+        width: 90%;
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-text {
+        width: 100%;
+        height: 5rem;
+        font-family: 'ClashDisplay-Regular';
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        font-size: 10px;
+        color: white;
+    }
+
+    .footer-textanimation {
+        width: 100%;
+        height: 5rem;
+    }
+
+    .footer-social {
+        width: 100%;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .footer-socialanimation {
+        width: 100%;
+        height: 5rem;
+    }
+
+    .footer-icon {
+        width: auto;
+        height: 3rem;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'ClashDisplay-Regular';
+    }
+
+
+    .ruin-container {
+        width: 90%;
+        height: 95rem;
+        border-bottom: solid;
+        border-width: 1px;
+        border-color: rgb(44, 44, 44);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .ruin-text {
+        width: 100%;
+        height: 5rem;
+        font-family: 'ClashDisplay-Semibold';
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        color: white;
+        font-size: 30px;
+    }
+
+    .ruin-slogan {
+        width: 100%;
+        height: 7rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        color: rgb(148, 148, 148);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .ruin-works {
+        width: 100%;
+        height: 83rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .ruin-image1 {
+        width: 90%;
+        height: 25rem;
+        background-image: url(images/missing-eye.avif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+    .ruin-image2 {
+        width: 90%;
+        height: 25rem;
+        background-image: url(images/dete-poster.avif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+    .ruin-image3 {
+        width: 90%;
+        height: 25rem;
+        background-image: url(images/heaven.avif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+    }
 }

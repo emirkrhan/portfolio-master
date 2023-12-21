@@ -1,7 +1,6 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
 import "./black.css"
-import "./black-mobilephone.css"
 import { Fade, Zoom } from "react-awesome-reveal";
 import { Link } from 'react-scroll'
 import emailjs from 'emailjs-com';
@@ -332,7 +331,7 @@ function Black() {
                                     temel adımlar ve ipuçları bulunmaktadır. Bu makalede, yazılıma başlamak isteyenler için temel bilgileri
                                     ve rehberliği sunacağız. Yazılıma başlamadan önce, neden yazılımı öğrenmek istediğinizi ve ne tür projelerde çalışmak
                                     istediğinizi düşünün. Belirli bir hedef veya proje, sizi motive edebilir ve öğrenme sürecinde size yol gösterebilir...</div>
-                                <div className='blog-con-btn'><Zoom triggerOnce={true} className='blog-con-animate'><a className="btn-problog" href="/">DEVAMINI OKU &nbsp; <i class="fa-solid fa-location-arrow"></i> <div className='hover-tagg'></div></a></Zoom></div>
+                                <div className='blog-con-btn'><Zoom className='blog-con-animate'><a className="btn-problog" href="/">DEVAMINI OKU &nbsp; <i class="fa-solid fa-location-arrow"></i> <div className='hover-tagg'></div></a></Zoom></div>
                             </div>
                             <div className='blog-image1'><div className="img-addblog1"></div></div>
                         </div>
@@ -349,7 +348,7 @@ function Black() {
                                     ve reklamlardan afişlere kadar pek çok alanda grafik tasarımın etkisi bulunur. Bu yazıda, grafik
                                     tasarımın ne olduğunu, neden önemli olduğunu ve yaratıcılığın bu alandaki rolünü keşfedeceğiz. Grafik tasarım,
                                     metin, görseller ve renklerin uyumlu bir şekilde düzenlenmesiyle iletişimi etkili bir şekilde aktarmayı amaçlayan bir sanat dalıdır...</div>
-                                <div className='blog-con-btn'><Zoom triggerOnce={true} className='blog-con-animate'><a className="btn-problog" href="/">DEVAMINI OKU &nbsp; <i class="fa-solid fa-location-arrow"></i> <div className='hover-tagg'></div></a></Zoom></div>
+                                <div className='blog-con-btn'><Zoom className='blog-con-animate'><a className="btn-problog" href="/">DEVAMINI OKU &nbsp; <i class="fa-solid fa-location-arrow"></i> <div className='hover-tagg'></div></a></Zoom></div>
                             </div>
                         </div>
                     </Fade>
@@ -364,7 +363,7 @@ function Black() {
                                     yapay zeka alanındaki gelişmeleri inceleyeceğiz. Günümüzde, teknoloji her yönüyle yaşamımızın bir parçası haline geldi.
                                     Akıllı telefonlar, tabletler, giyilebilir teknolojiler ve IoT (Nesnelerin İnterneti) cihazları, günlük hayatımızı büyük
                                     ölçüde etkiliyor. İnternet, dünyanın dört bir yanındaki insanları bir araya getiriyor ve bilgiye erişimi kolaylaştırıyor...</div>
-                                <div className='blog-con-btn'><Zoom triggerOnce={true} className='blog-con-animate'><a className="btn-problog" href="/">DEVAMINI OKU &nbsp; <i class="fa-solid fa-location-arrow"></i> <div className='hover-tagg'></div></a></Zoom></div>
+                                <div className='blog-con-btn'><Zoom  className='blog-con-animate'><a className="btn-problog" href="/">DEVAMINI OKU &nbsp; <i class="fa-solid fa-location-arrow"></i> <div className='hover-tagg'></div></a></Zoom></div>
                             </div>
                             <div className='blog-image1'><div className="img-addblog3"></div></div>
                         </div>
@@ -382,7 +381,7 @@ function Black() {
                                     alanda başarılı olmanız için gerekli olan bilgi ve becerileri inceleyeceğiz. Web geliştirme, bir web sitesi
                                     veya web uygulaması oluşturmak ve yönetmek için kullanılan sürecin adıdır. Temel olarak, web geliştirme
                                     iki ana bileşeni içerir...</div>
-                                <div className='blog-con-btn'><Zoom triggerOnce={true} className='blog-con-animate'><a className="btn-problog" href="/">DEVAMINI OKU &nbsp; <i class="fa-solid fa-location-arrow"></i> <div className='hover-tagg'></div></a></Zoom></div>
+                                <div className='blog-con-btn'><Zoom className='blog-con-animate'><a className="btn-problog" href="/">DEVAMINI OKU &nbsp; <i class="fa-solid fa-location-arrow"></i> <div className='hover-tagg'></div></a></Zoom></div>
                             </div>
                         </div>
                     </Fade>
