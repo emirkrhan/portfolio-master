@@ -144,7 +144,7 @@ function Black() {
             <div className="menu-div">
                 <div className="menu-container">
                     <Fade className='menu-logoanimation'>
-                        <div className='menu-logo'>EMIRKRHAN©</div>
+                        <div className='menu-logo'>EMIRKRHN©</div>
                     </Fade>
 
                     <Fade className='menu-taganimation'>
@@ -253,7 +253,10 @@ function Black() {
                             <div className="texts-number">04</div>
                             <div className="texts-a-text">
                                 <div className='texts-title'>UZMANLIK ALANLARIM</div>
-                                <div className='texts-myower'>Profesyonel olmamakla birlikte yazılım kısmında html, css, javascript, bootstrap, material.ui, java ve spring boot gibi yazılım dilleri ve yazılım kütüphaneleri üzerine çalışıyorum. Grafik tasarım alanında Adobe Photoshop ve baskı mizanpaj çalışmaları için Adobe Indesign kullanmaktayım. Adobe Illustrator da kullanmak isterdim ama benim için fazla karışık :) </div>
+                                <div className='texts-myower'>Profesyonel olmamakla birlikte yazılım kısmında html, css, javascript, bootstrap, material.ui, 
+                                java ve spring boot gibi yazılım dilleri ve yazılım kütüphaneleri üzerine çalışıyorum. Grafik tasarım alanında Adobe 
+                                Photoshop ve baskı mizanpaj çalışmaları için Adobe Indesign kullanmaktayım. Adobe Illustrator da kullanmak 
+                                isterdim ama benim için fazla karışık :) </div>
                             </div>
                         </div>
 
